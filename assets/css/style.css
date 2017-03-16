@@ -1,0 +1,80 @@
+ body {
+     display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+     background: #f8f8f8;
+ }
+ 
+ main {
+     flex: 1 0 auto;
+ }
+ 
+ .container {
+     width: 100%;
+ }
+ /*Nav*/
+ 
+ nav,
+ footer.page-footer {
+     background: white;
+ }
+ 
+ .nav-wrapper {
+     width: 95%
+ }
+ 
+ .brand-logo {
+     margin-left: 30px
+ }
+ /*End Nav*/
+ 
+ .parallax-container {
+     color: white;
+     height: 550px
+ }
+ 
+ .title {
+     display: inline-block;
+     margin-top: 200px
+ }
+ 
+ #name {
+     color: #00bcd3;
+     margin-left: 10px
+ }
+ 
+ .blue-txt {
+     color: #00bcd3;
+ }
+ 
+ .card-image {
+     width: 100%
+ }
+ 
+ .btn-icon {
+     width: 50%
+ }
+ 
+ .margin-top-15 {
+     margin-top: 15px
+ }
+ 
+ .margin-top-100 {
+     margin-top: 100px;
+ }
+ 
+ .margin-bottom-100 {
+     margin-bottom: 100px
+ }
+ 
+ .margin-left-60 {
+     margin-left: 60px
+ }
+ /*technical skills*/
+ 
+ #technical-skills {
+     background-image: url("../images/laptop-on-work-desk.jpg");
+     height: 600px;
+     width: 100%
+ }
+ /*apps developed*/
