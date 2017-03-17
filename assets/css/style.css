@@ -41,6 +41,20 @@ footer.page-footer {
     height: 100%;
 }
 
+.header-img {
+    height: 700px;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 200px
+}
+
+#name {
+    color: #00bcd3;
+    margin-left: 10px
+}
+
 .blue-txt {
     color: #00bcd3;
 }
@@ -69,6 +83,10 @@ footer.page-footer {
     margin-top: 130px;
 }
 
+.margin-bottom-200 {
+    margin-bottom: 200px
+}
+
 .margin-bottom-100 {
     margin-bottom: 100px
 }
@@ -79,27 +97,6 @@ footer.page-footer {
 
 .margin-left-60 {
     margin-left: 60px
-}
-
-
-/*Header*/
-
-.header-img {
-    height: 700px;
-}
-
-.title {
-    display: inline-block;
-    margin-top: 200px
-}
-
-#name {
-    color: #00bcd3;
-    margin-left: 10px
-}
-
-#header-div {
-    height: 550px
 }
 
 
@@ -202,10 +199,6 @@ footer.page-footer {
 
 /*contact*/
 
-#contact {
-    height: 550px
-}
-
 
 /*media queries*/
 
@@ -223,17 +216,3 @@ footer.page-footer {
         width: 40px;
     }
 }
-
-
-/*
-@media only screen and (max-width: 375px) {
-    #header {
-        height: 700px
-    }
-    #tech-skills {
-        height: 1500px
-    }
-    #contact {
-        height: 600px
-    }
-}*/
