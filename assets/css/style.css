@@ -173,9 +173,4 @@
  }
  /*contact*/
  
- #contact {
-     height: 500px;
-     background: #2e2e2e;
-     width: 100%;
-     margin-bottom: 0
- }
+ #contact {}
