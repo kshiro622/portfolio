@@ -38,7 +38,11 @@ footer.page-footer {
 
 .parallax-container {
     color: white;
-    height: 550px
+    height: 100%;
+}
+
+#header {
+    height: 550px;
 }
 
 .header-img {
