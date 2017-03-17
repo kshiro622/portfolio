@@ -1,174 +1,214 @@
- body {
-     display: flex;
-     min-height: 100vh;
-     flex-direction: column;
-     background: #f8f8f8;
- }
- 
- main {
-     flex: 1 0 auto;
- }
- 
- .container {
-     width: 85%;
- }
- /*Nav*/
- 
- nav,
- footer.page-footer {
-     background: white;
- }
- 
- .nav-wrapper {
-     width: 95%
- }
- 
- .brand-logo {
-     margin-left: 30px
- }
- /*End Nav*/
- 
- .parallax-container {
-     color: white;
-     height: 550px
- }
- 
- .header-img {
-     height: 700px;
- }
- 
- .title {
-     display: inline-block;
-     margin-top: 200px
- }
- 
- #name {
-     color: #00bcd3;
-     margin-left: 10px
- }
- 
- .blue-txt {
-     color: #00bcd3;
- }
- 
- .card-image {
-     width: 100%;
-     margin-top: 3px;
- }
- 
- .btn-icon {
-     width: 50%
- }
- /*Margins*/
- 
- .margin-top-15 {
-     margin-top: 15px
- }
- 
- .margin-top-100 {
-     margin-top: 100px;
- }
- 
- .margin-top-130 {
-     margin-top: 130px;
- }
- 
- .margin-bottom-100 {
-     margin-bottom: 100px
- }
- 
- .margin-bottom-40 {
-     margin-bottom: 40px
- }
- 
- .margin-left-60 {
-     margin-left: 60px
- }
- /*My Story*/
- 
- .contact {
-     font-size: 16px;
-     margin-left: 20px;
- }
- 
- #contact-name {
-     margin-top: 30px;
- }
- /*technical skills*/
- 
- .skill {
-     width: 50px;
-     margin-right: 30px;
-     background: #00bcd3;
-     color: lightgray;
- }
- 
- .inline {
-     display: inline-block;
- }
- 
- #html {
-     height: 200px;
- }
- 
- #css {
-     height: 200px;
- }
- 
- #js {
-     height: 180px;
- }
- 
- #jquery {
-     height: 190px;
- }
- 
- #sql {
-     height: 150px;
- }
- 
- #node {
-     height: 140px;
- }
- 
- #react {
-     height: 130px;
- }
- 
- .resume-btn {
-     background: white;
-     color: #00bcd3;
-     margin-top: 20px;
- }
- 
- .btn:hover,
- .btn:active {
-     background: #f8f8f8;
- }
- 
- .btn:visited {
-     background: white;
- }
- /*apps developed*/
- 
- #apps-dev {
-     height: 100%;
- }
- 
- #apps-dev-2 {
-     height: 100%;
-     margin-bottom: 50px;
- }
- 
- .small-hr {
-     width: 10%;
-     margin-top: 30px;
-     margin-bottom: 60px;
- }
- 
- .small-hr-2 {
-     width: 10%;
-     margin-top: 30px;
-     margin-bottom: 30px;
- }
- /*contact*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #f8f8f8;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.container {
+    width: 85%;
+}
+
+#menu-icon {
+    color: #00bcd3;
+}
+
+
+/*Nav*/
+
+nav,
+footer.page-footer {
+    background: white;
+}
+
+.nav-wrapper {
+    width: 95%
+}
+
+.brand-logo {
+    margin-left: 30px
+}
+
+
+/*End Nav*/
+
+.parallax-container {
+    color: white;
+    height: 550px
+}
+
+.header-img {
+    height: 700px;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 200px
+}
+
+#name {
+    color: #00bcd3;
+    margin-left: 10px
+}
+
+.blue-txt {
+    color: #00bcd3;
+}
+
+.card-image {
+    width: 100%;
+    margin-top: 3px;
+}
+
+.btn-icon {
+    width: 50%
+}
+
+
+/*Margins*/
+
+.margin-top-15 {
+    margin-top: 15px
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top-130 {
+    margin-top: 130px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px
+}
+
+.margin-bottom-40 {
+    margin-bottom: 40px
+}
+
+.margin-left-60 {
+    margin-left: 60px
+}
+
+
+/*My Story*/
+
+.contact {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#contact-name {
+    margin-top: 30px;
+}
+
+
+/*technical skills*/
+
+#tech-skills {
+    height: 100%
+}
+
+.skill {
+    width: 50px;
+    margin-right: 30px;
+    background: #00bcd3;
+    color: lightgray;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#html {
+    height: 200px;
+}
+
+#css {
+    height: 200px;
+}
+
+#js {
+    height: 180px;
+}
+
+#jquery {
+    height: 190px;
+}
+
+#sql {
+    height: 150px;
+}
+
+#node {
+    height: 140px;
+}
+
+#react {
+    height: 130px;
+}
+
+.resume-btn {
+    background: white;
+    color: #00bcd3;
+    margin-top: 20px;
+}
+
+.btn:hover,
+.btn:active {
+    background: #f8f8f8;
+}
+
+.btn:visited {
+    background: white;
+}
+
+
+/*apps developed*/
+
+#apps-dev {
+    height: 100%;
+}
+
+#apps-dev-2 {
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.small-hr {
+    width: 10%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.small-hr-2 {
+    width: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/*contact*/
+
+
+/*media queries*/
+
+@media only screen and (max-width: 500px) {
+    #hi {
+        font-size: 45px;
+    }
+    #name {
+        font-size: 45px;
+    }
+    #subtitle {
+        font-size: 30px;
+    }
+    .skill {
+        width: 40px;
+    }
+}

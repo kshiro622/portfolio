@@ -20,33 +20,31 @@
 
 <body>
     <!--Navbar-->
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo grey-text text-darken-3">Katie Shiro</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-doww">
-                    <li><a href="#about-me" class="grey-text text-darken-3">About Me</a></li>
-                    <li><a href="#tech-skills" class="grey-text text-darken-3">Technical Skills</a></li>
-                    <li><a href="#apps-dev" class="grey-text text-darken-3">Portfolio</a></li>
-                    <li><a href="#contact" class="grey-text text-darken-3">Contact</a></li>
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#about-me" class="grey-text text-darken-3">About Me</a></li>
-                    <li><a href="#tech-skills" class="grey-text text-darken-3">Technical Skills</a></li>
-                    <li><a href="#apps-dev" class="grey-text text-darken-3">Portfolio</a></li>
-                    <li><a href="#contact" class="grey-text text-darken-3">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <nav>
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo grey-text text-darken-3">Katie Shiro</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i id="menu-icon" class="medium material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#about-me" class="grey-text text-darken-3">About Me</a></li>
+                <li><a href="#tech-skills" class="grey-text text-darken-3">Technical Skills</a></li>
+                <li><a href="#apps-dev" class="grey-text text-darken-3">Portfolio</a></li>
+                <li><a href="#contact" class="grey-text text-darken-3">Contact</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="#about-me" class="grey-text text-darken-3">About Me</a></li>
+                <li><a href="#tech-skills" class="grey-text text-darken-3">Technical Skills</a></li>
+                <li><a href="#apps-dev" class="grey-text text-darken-3">Portfolio</a></li>
+                <li><a href="#contact" class="grey-text text-darken-3">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
     <!--Header-->
     <div class="parallax-container">
         <div class="parallax"><img class="header-img" src="assets/images/home-image.jpg"> </div>
         <div class="center-align">
             <h1 class="title" id="hi">Hi! I'm</h1>
             <h1 class="title" id="name">Katie Shiro</h1>
-            <h4>Junior Developer</h4>
+            <h4 class="subtitle">Junior Developer</h4>
         </div>
     </div>
     <!--About Me-->
@@ -204,13 +202,17 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Eat-Da-Burger<i class="material-icons right">more_vert</i></span>
-                        <p><a href="https://sequelize-devour-burgers.herokuapp.com/api/all" target="blank">live</a> | <a href="https://github.com/kshiro622/sequelizedBurger" target="blank">github</a></p>
+                        <p><a href="https://sequelize-devour-burgers.herokuapp.com/api/all" target="blank">live</a> |
+                            <a href="https://github.com/kshiro622/sequelizedBurger" target="blank">github</a>
+                        </p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Eat-Da-Burger<i class="material-icons right">close</i></span>
                         <p>List and devour burgers with this fun app!</p>
                         <p>Technologies Used: Node, Express, MySQL, Sequelize, Handlebars</p>
-                        <p><a href="https://sequelize-devour-burgers.herokuapp.com/api/all" target="blank">live</a> | <a href="https://github.com/kshiro622/sequelizedBurger" target="blank">github</a></p>
+                        <p><a href="https://sequelize-devour-burgers.herokuapp.com/api/all" target="blank">live</a> |
+                            <a href="https://github.com/kshiro622/sequelizedBurger" target="blank">github</a>
+                        </p>
                     </div>
                 </div>
             </div>
