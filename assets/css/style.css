@@ -38,6 +38,10 @@ footer.page-footer {
 
 .parallax-container {
     color: white;
+    height: 100%;
+}
+
+#header-div {
     height: 550px;
 }
 
@@ -198,6 +202,10 @@ footer.page-footer {
 
 
 /*contact*/
+
+#contact-div {
+    height: 250px
+}
 
 
 /*media queries*/
